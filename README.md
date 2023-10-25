@@ -10,11 +10,18 @@ Usecase Example: code of python how it will perform add , subtract
 
 from nikoperations.addition import add
 from nikoperations.subtraction import subtract
-if __name__ == '__main__':
-    x = int(input("enter your number "))
-    y= int(input("enter your second number "))
-    addition_answer= add(x, y)
-    subtraction_answer=subtract(x,y)
-    print("here is your anser :")
-    print(addition_answer)
-    print(subtraction_answer)
+
+if __name__ == '__main':
+    try:
+        x = int(input("Enter your first number: "))
+        y = int(input("Enter your second number: "))
+        
+        addition_answer = add(x, y)
+        subtraction_answer = subtract(x, y)
+        
+        print("Here are your answers:")
+        print(f"Addition: {addition_answer}")
+        print(f"Subtraction: {subtraction_answer}")
+    except ValueError:
+        print("Please enter valid integers for your numbers.")
+
