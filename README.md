@@ -1,4 +1,4 @@
-![image](https://github.com/Nikhil18Patil/nikoperations/assets/87567207/eee92be5-7d12-4df3-8c15-6b36bed5e1bc)First Module and simple module creatd by me . 
+First Module and simple module creatd by me . 
 So, other can  install this module in their system 
 " pip install nikoperations "
 Usecase Example: code of python how it will perform add , subtract
